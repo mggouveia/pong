@@ -122,11 +122,17 @@ obj/Linux/main.o: src/main.c /usr/x86_64-w64-mingw32/include/SDL2/SDL.h \
  /usr/x86_64-w64-mingw32/include/SDL2/SDL_system.h \
  /usr/x86_64-w64-mingw32/include/SDL2/SDL_timer.h \
  /usr/x86_64-w64-mingw32/include/SDL2/SDL_version.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/6.3-win32/include/stdbool.h \
  /usr/share/mingw-w64/include/stdio.h \
  /usr/share/mingw-w64/include/_mingw_print_push.h \
  /usr/x86_64-w64-mingw32/include/swprintf.inl \
  /usr/share/mingw-w64/include/sec_api/stdio_s.h \
- /usr/share/mingw-w64/include/_mingw_print_pop.h
+ /usr/share/mingw-w64/include/_mingw_print_pop.h \
+ /usr/share/mingw-w64/include/math.h /usr/share/mingw-w64/include/time.h \
+ /usr/share/mingw-w64/include/_timeval.h \
+ /usr/share/mingw-w64/include/sys/timeb.h \
+ /usr/share/mingw-w64/include/sec_api/sys/timeb_s.h \
+ /usr/share/mingw-w64/include/pthread_time.h
 
 /usr/x86_64-w64-mingw32/include/SDL2/SDL.h:
 
@@ -376,6 +382,8 @@ obj/Linux/main.o: src/main.c /usr/x86_64-w64-mingw32/include/SDL2/SDL.h \
 
 /usr/x86_64-w64-mingw32/include/SDL2/SDL_version.h:
 
+/usr/lib/gcc/x86_64-w64-mingw32/6.3-win32/include/stdbool.h:
+
 /usr/share/mingw-w64/include/stdio.h:
 
 /usr/share/mingw-w64/include/_mingw_print_push.h:
@@ -385,3 +393,15 @@ obj/Linux/main.o: src/main.c /usr/x86_64-w64-mingw32/include/SDL2/SDL.h \
 /usr/share/mingw-w64/include/sec_api/stdio_s.h:
 
 /usr/share/mingw-w64/include/_mingw_print_pop.h:
+
+/usr/share/mingw-w64/include/math.h:
+
+/usr/share/mingw-w64/include/time.h:
+
+/usr/share/mingw-w64/include/_timeval.h:
+
+/usr/share/mingw-w64/include/sys/timeb.h:
+
+/usr/share/mingw-w64/include/sec_api/sys/timeb_s.h:
+
+/usr/share/mingw-w64/include/pthread_time.h:

@@ -5,8 +5,8 @@ CXX = x86_64-w64-mingw32-gcc
 
 INCLUDE   = -I$(INT_DIR) -I$(INC_DIR)
 LFLAGS    = -mwindows -lmingw32 -lSDL2main -lSDL2
-CFLAGS    = -MD -MP -Wall -Werror -pedantic -std=c99 -m64
-
+CFLAGS    = -MD -MP -Wall -pedantic -std=c99 -m64
+#-Werror
 #--------------------------------------------------------
 # sources
 #--------------------------------------------------------
